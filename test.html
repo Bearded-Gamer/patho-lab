@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="tests.css">
+    <title>dengue test</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="">NEWS</a>
+        <a href="contact_us.html">CONTACT US</a>
+        <a href="">ABOUT</a>
+    </div>
+    <div class="container">
+        <h1>DENGUE TEST INFORMATION</h1>
+        <marquee behavior="" direction=""  >fill this form</marquee>  
+        <h2>PATENT INFORMATION</H2>
+    
+        <form action="connect.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter patent name">
+            <br><br>
+            <input type="date" name="date" id="date">
+            <br><br>
+            <input type="number" name="age" id="age" placeholder="Enter patent age">
+            <br><br>
+           <label >gender</label><br>
+            <input type="radio" name="gender" id="gender" value="m"  >male
+            <input type="radio" name="gender" id="gender" value="f" >female
+            <br><br>
+            <input type="text" name="DRname" id="DRname" placeholder="Enter DR name">
+            <h2>TEST INFORMATION</h2>
+            <input type="text" name="specimen" id="specimen" placeholder="Enter nature of specimen">
+            <br><br>
+            <input type="text" name="testid" id="testid" placeholder="Enter test id">
+            <br><br>
+            <h2>RESULT INFORMATION</h2>
+            <br><br>
+            <label >IgM antibodies</label><br>
+            <input type="radio" name="IgMantibodies" id="IgMantibodies," value="positive">positive
+            <input type="radio" name="IgMantibodies" id="IgMantibodies," value="negative">negative
+            <br><br>
+            <label >IgG antibodies</label><br>
+            <input type="radio" name="IgGantibodies" id="IgGantibodies" value="positive">positive
+            <input type="radio" name="IgGantibodies" id="IgGantibodies" value="negative">negative
+            <br><br>
+            <label >NS1</label><br>
+            <input type="radio" name="NS1" id="NS1" value="positive">positive
+            <input type="radio" name="NS1" id="NS1" value="negative">negative
+            <br><br> 
+            <button type="submit">submit</button>
+        </form>
+        
+    </div>
+
+</body>
+
+</html>

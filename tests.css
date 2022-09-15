@@ -1,0 +1,69 @@
+*
+{
+     padding: 0px;
+     margin: 0px;
+}
+
+
+body
+{
+    background-image: url("bgg.jpg");
+ background-size: 110%;
+    
+}
+
+input, textarea
+{
+    color:rebeccapurple;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.container
+{
+    width: 400px;
+    margin: 100px auto 0px auto;
+    background-color: rgba(61, 43, 43, 0.568);
+    text-align: center;
+    font-size: 18px;
+    border-radius: 13%;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow: 3px 2px 15px
+    rgba(0,0,0,0.3);
+    color: #fff;
+}
+.container button
+{
+    
+    background-color: orange;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+
+.topnav
+{
+    background-color:rgba(0, 0, 0,0.3);
+    overflow: hidden;
+}
+.topnav a
+{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   
+}
+.topnav a:hover
+{
+    background-color: #ddd;
+    border: none;
+    border-radius: 33px;
+    color: white;
+}
